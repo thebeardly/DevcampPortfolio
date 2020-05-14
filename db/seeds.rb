@@ -14,7 +14,7 @@ end
 
 9.times do |portfolio_item|
   Portfolio.create!(
-    title: "Portfolio title #{portfolio_itmem}",
+    title: "Portfolio title #{portfolio_item}",
     subtitle: "Cool stuff",
     body: "text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and",
     main_image: "https://via.placeholder.com/600x400",
