@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/thebeardly/beardly_view_tool
-  revision: 35f12f7b68ac491ff3806530cbf67436b30a3c5e
+  revision: a57c3e09946f8f0304a6256bf5d01ec0eca459d6
   specs:
-    beardly_view_tool (0.1.0)
+    beardly_view_tool (0.1.1)
 
 GEM
   remote: https://rubygems.org/
