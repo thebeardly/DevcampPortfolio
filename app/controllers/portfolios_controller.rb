@@ -1,10 +1,10 @@
 class PortfoliosController < ApplicationController
-  before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
+  before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy, :move]
   layout "portfolio"
   access all: [:show, :index], user: {except: [:destroy, :new, :create, :edit, :update]}, site_admin: :all
 
   def index
-    @portfolio_items = Portfolio.all
+    @portfolio_items = Portfolio.order(position: :asc)
   end
 
   def new
@@ -45,6 +45,11 @@ class PortfoliosController < ApplicationController
     respond_to do |format|
       format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
     end
+  end
+
+  def move
+    @portfolio_item.insert_at(params[:position].to_i)
+    head :ok
   end
 
   private
