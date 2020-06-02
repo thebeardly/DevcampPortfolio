@@ -12,9 +12,15 @@ require("channels")
 require('jquery')
 require("bootstrap/dist/js/bootstrap")
 
+require("custom/home")
+
+
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+//= require jquery-ui
+//= require custom/home
+//= require tree .
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
