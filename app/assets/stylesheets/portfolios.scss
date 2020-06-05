@@ -41,3 +41,20 @@ footer p {
 .portfolio-form {
   padding: 20px;
 }
+
+#file {
+  display: none;
+}
+
+.input-label {
+  background: #009688;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 50px;
+  transition: 0.3s;
+}
+.input-label:hover {
+  background: #26a69a;
+  cursor: pointer;
+}
+

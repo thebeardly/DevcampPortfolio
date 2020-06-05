@@ -90,6 +90,7 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
+    bootstrap-filestyle-rails (1.2.1)
     builder (3.2.4)
     byebug (11.1.3)
     carrierwave (2.1.0)
@@ -305,6 +306,7 @@ DEPENDENCIES
   beardly_view_tool (~> 0.1.3)
   bootsnap (>= 1.4.2)
   bootstrap (~> 4.5.0)
+  bootstrap-filestyle-rails (~> 1.2, >= 1.2.1)
   byebug
   carrierwave (~> 2.1)
   carrierwave-aws (~> 1.5)
