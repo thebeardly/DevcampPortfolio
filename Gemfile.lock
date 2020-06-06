@@ -182,7 +182,7 @@ GEM
     nokogiri (1.10.9-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    ostruct (0.2.0)
+    ostruct (0.1.0)
     petergate (2.0.1)
       activerecord (> 4.0.0)
     pg (1.2.3)
@@ -292,7 +292,7 @@ GEM
       websocket-extensions (>= 0.1.0)
     websocket-driver (0.7.2-java)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
     zeitwerk (2.3.0)
 
 PLATFORMS
