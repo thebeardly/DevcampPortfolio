@@ -62,3 +62,4 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 gem 'bootstrap-filestyle-rails', '~> 1.2', '>= 1.2.1'
 gem "websocket-extensions", ">= 0.1.5"
+gem 'cocoon', '~> 1.2', '>= 1.2.14'
