@@ -5,6 +5,7 @@
 import 'bootstrap'
 import "controllers"
 import 'cocoon-js'
+import Swal from 'sweetalert2'
 // import './src/application.scss'
 
 require("@rails/ujs").start()
@@ -27,3 +28,10 @@ require("bootstrap-filestyle2")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+// $(document).ready(function () {
+//   setTimeout(function () {
+//     $('#notice-wrapper').fadeOut("slow", function () {
+//       $(this).remove();
+//     });
+//   }, 6500);
+// });

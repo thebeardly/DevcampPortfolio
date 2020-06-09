@@ -3,3 +3,13 @@
     <%= copyright_generator %>
   </div>
 </footer>
+
+<script>
+  $(document).ready(function () {
+    setTimeout(function () {
+      $('#notice-wrapper').fadeOut("slow", function () {
+        $(this).remove();
+      });
+    }, 6000);
+  });
+</script>
