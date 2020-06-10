@@ -5,7 +5,6 @@
 import 'bootstrap'
 import "controllers"
 import 'cocoon-js'
-import Swal from 'sweetalert2'
 // import './src/application.scss'
 
 require("@rails/ujs").start()
@@ -15,11 +14,13 @@ require("channels")
 require('jquery')
 require("bootstrap/dist/js/bootstrap")
 require("bootstrap-filestyle2")
+require("cable")
 
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
 //= require bootstrap-filestyle
+//= require cable
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)

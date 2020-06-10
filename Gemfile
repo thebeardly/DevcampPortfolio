@@ -64,3 +64,5 @@ gem 'bootstrap-filestyle-rails', '~> 1.2', '>= 1.2.1'
 gem "websocket-extensions", ">= 0.1.5"
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 gem 'sweetify', '~> 2.0'
+gem 'twitter', '~> 7.0'
+gem 'redis', '~> 4.2'
