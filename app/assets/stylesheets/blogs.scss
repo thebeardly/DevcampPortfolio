@@ -212,3 +212,17 @@ h6,
 .comment-name {
   font-weight: 700;
 }
+
+.topics-btn {
+  background-color: #428bca;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  transition: 0.1s ease-in;
+}
+
+.topics-btn:hover {
+  color: white;
+  background-color: #366fa1;
+  text-decoration: none;
+}
