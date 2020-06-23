@@ -63,3 +63,5 @@ gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 gem 'bootstrap-filestyle-rails', '~> 1.2', '>= 1.2.1'
 gem "websocket-extensions", ">= 0.1.5"
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
+gem 'redcarpet', '~> 3.5'
+gem 'coderay', '~> 1.1', '>= 1.1.3'
