@@ -3,7 +3,24 @@
   <h1>About Me</h1>
     <div class="row">
       <div class="col-md-4">
-        <%= image_tag ("https://via.placeholder.com/300x400") %>
+        <%= image_tag ("https://via.placeholder.com/300x250") %>
+
+        <div class="skills">
+          <% @skills.each do |skill| %>
+            <div class="skill">
+              <h4><%= skill.title %></h4>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped bg-secondary"
+                  role="progressbar"
+                  aria-valuenow="<%= skill.percent_utilized %>"
+                  aria-valuemax="100"
+                  style="width: <%= skill.percent_utilized %>%"
+                ></div>
+              </div>
+            </div>
+          <% end %>
+        </div>
       </div>
       <div class="col-sm-8">
         <p>I always had an interest in programming.  When I was young I wanted to make games and when I was 13 I taught myself how to make websites with HTML and CSS. I've been working on the other side of IT making servers and configurations work for, getting close to, 10 years now and it's time to make a switch. </p>
