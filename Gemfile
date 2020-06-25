@@ -65,3 +65,4 @@ gem "websocket-extensions", ">= 0.1.5"
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
 gem 'redcarpet', '~> 3.5'
 gem 'coderay', '~> 1.1', '>= 1.1.3'
+gem 'redis', '~> 4.2', '>= 4.2.1'
