@@ -2,19 +2,19 @@
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
-import 'bootstrap'
-import "controllers"
-import 'cocoon-js'
-import Swal from 'sweetalert2'
+import "bootstrap";
+import "controllers";
+import "cocoon-js";
+import "@fortawesome/fontawesome-free/js/all";
 // import './src/application.scss'
 
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
-require('jquery')
-require("bootstrap/dist/js/bootstrap")
-require("bootstrap-filestyle2")
+require("@rails/ujs").start();
+require("turbolinks").start();
+require("@rails/activestorage").start();
+require("channels");
+require("jquery");
+require("bootstrap/dist/js/bootstrap");
+require("bootstrap-filestyle2");
 
 //= require jquery3
 //= require popper
