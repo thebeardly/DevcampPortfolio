@@ -1,4 +1,6 @@
 class CommentsController < ApplicationController
+  before_action :set_comment, only: [:destroy]
+  access user: [:new, :create], site_admin: :allS
   
   def new
     @comment = Comment.new
@@ -11,8 +13,17 @@ class CommentsController < ApplicationController
                                     content: @comment.content
     end
   end
+
+  def destroy
+    @comment.destroy
+    redirect_to request.referrer || root_url
+  end
   
   private
+
+  def set_comment
+    @comment = Comment.find(params[:id])
+  end
 
   def comment_params
     params.require(:comment).permit(:content)
