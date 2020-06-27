@@ -1,118 +1,116 @@
-<main role="main" class="inner cover main-content mt-auto mb-auto">
-  <div class="app-card-container">
-    <div class="card">
-    <h1>About Me</h1>
-      <div class="row">
-        <div class="col-md-4">
-          <%= image_tag "beardly.png", class: "about-me" %>
+<div class="app-card-container">
+  <div class="card">
+  <h1>About Me</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <%= image_tag "beardly.png", class: "about-me" %>
 
-            <div class="row">
-              <div class="col skills-img mt-2">
-                <div class="card">
-                  <h3 class="ml-2">Skills</h3>
-                    <div class="row ml-auto skill-list">
-                      <div class="col-4">
-                        <strong>Front-End</strong>
-                          <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>Bootstrap</li>
-                            <li>VueJS</li>
-                          </ul>
-                      </div>
-                      <div class="col-4">
-                        <strong>Back-End</strong>
-                          <ul>
-                            <li>Ruby</li>
-                            <li>Rails</li>
-                            <li>NodeJS</li>
-                          </ul>
-                      </div>
-                      <div class="col-4">
-                        <strong>Other</strong>
-                          <ul>
-                            <li>MongoDB</li>
-                            <li>PostgresQL</li>
-                            <li>Express</li>
-                          </ul>
-                      </div>
+          <div class="row">
+            <div class="col skills-img mt-2">
+              <div class="card">
+                <h3 class="ml-2">Skills</h3>
+                  <div class="row ml-auto skill-list">
+                    <div class="col-4">
+                      <strong>Front-End</strong>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS3</li>
+                          <li>JavaScript</li>
+                          <li>Bootstrap</li>
+                          <li>VueJS</li>
+                        </ul>
                     </div>
-                </div>
+                    <div class="col-4">
+                      <strong>Back-End</strong>
+                        <ul>
+                          <li>Ruby</li>
+                          <li>Rails</li>
+                          <li>NodeJS</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                      <strong>Other</strong>
+                        <ul>
+                          <li>MongoDB</li>
+                          <li>PostgresQL</li>
+                          <li>Express</li>
+                        </ul>
+                    </div>
+                  </div>
               </div>
             </div>
+          </div>
 
-        </div>
-        <div class="col-sm-8">
-          <p>My name is Tristan, I'm an experienced IT professional on the operations and infrastructure side of IT with over 10 years of experience in the field. Web development has been a hobby that I've been picking up on the last year or so and I'm looking to change careers over to the development side of the world.</p>
+      </div>
+      <div class="col-sm-8">
+        <p>My name is Tristan, I'm an experienced IT professional on the operations and infrastructure side of IT with over 10 years of experience in the field. Web development has been a hobby that I've been picking up on the last year or so and I'm looking to change careers over to the development side of the world.</p>
 
-          <p>This website is to showcase some of the full stack web development skills I've learned with Ruby on Rails as well as give me a place to show some of my other work and projects</p>
+        <p>This website is to showcase some of the full stack web development skills I've learned with Ruby on Rails as well as give me a place to show some of my other work and projects</p>
 
-          <p>
-            <button 
-              class="btn btn-dark"
-              type="button"
-              data-toggle="collapse"
-              data-target="#jobHistory"
-              aria-expander="false"
-              aria-controllers="jobHistory"
-            >
-            Job History
-            </button>
-          </p>
+        <p>
+          <button 
+            class="btn btn-dark"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expander="false"
+            aria-controllers="jobHistory"
+          >
+          Job History
+          </button>
+        </p>
 
-          <p>
-            <div class="collapse" id="jobHistory">
-              <div class="card card-block">
-                <h5>Nikola Motor Company</h5>
-                <h6>Server Engineer</h6>
-                <p>
-                  Moved from Azure AD only environment to hybrid Windows Server AD and Azure AD environment
-                  Setup device management and policies using Microsoft Intune for Azure AD Joined Devices
-                  Configure Synology NAS folder structure, groups and user access and map drives to devices
-                  Added OneLogin to reduce the number of passwords user have to remember
-                </p>
-              </div>
-
-              <div class="card card-block">
-                <h5>Phoenix Childrens Hospital</h5>
-                <h6>infrastructure Engineer</h6>
-                <p>
-                Create, deploy and automate images of mobile devices in the hospital
-                Package and deploy software, manage deployment groups and task sequences in SCCM
-                Monitor environment with Solarwinds and address alerts as they come in
-                Wrote PowerShell Scripts for user login tasks, create and manage users/groups in AD
-                </p>
-              </div>
-
-              <div class="card card-block">
-                <h5>Ewing Irrigation</h5>
-                <h6>Systems Administrator</h6>
-                <p>
-                Administrating physical and virtual servers using Windows Server 2008-2016, VMWare 6.5, Hyper-V, Active Directory, Group Policies, Okta Single Sign On, IBM Domino and Notes email, Barracuda Spam and Web Application Filters, mobile devices using Mac OS Server with Apple's Mobile Device Management software, IBM SmartCloud Collaboration Suite
-                </p>
-              </div>
-
-              <div class="card card-block">
-                <h5>Harkins Theatres</h5>
-                <h6>Junior System Administrator</h6>
-                <p>
-                Provide infrastructure and desktop support for corporate office, field IT team and theatre locations. Managed Active Directory, Group Policies, Exchange 2007, Vmware 5.5, Managed backups using Symantec Backup Exec and Veeam Virtual Backup, Cisco Switches and Access Points, Sonicwall Firewalls. some PowerShell scripting for automating tasks, IT Asset Procurement and configuration
-                </p>
-              </div>
-
-              <div class="card card-block">
-                <h5>Arizona Industries for the Blind</h5>
-                <h6>IT Specialist</h6>
-                <p>
-                Helpdesk support for over 100 users and 200 workstations, creating users in Active Directory, apply group and access changes for users, managing centralized McAfee server to deploy antivirus, installing and configuring JAWS and ZoomText
-                </p>
-              </div>
-
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              <h5>Nikola Motor Company</h5>
+              <h6>Server Engineer</h6>
+              <p>
+                Moved from Azure AD only environment to hybrid Windows Server AD and Azure AD environment
+                Setup device management and policies using Microsoft Intune for Azure AD Joined Devices
+                Configure Synology NAS folder structure, groups and user access and map drives to devices
+                Added OneLogin to reduce the number of passwords user have to remember
+              </p>
             </div>
-          </p>
-        </div>
+
+            <div class="card card-block">
+              <h5>Phoenix Childrens Hospital</h5>
+              <h6>infrastructure Engineer</h6>
+              <p>
+              Create, deploy and automate images of mobile devices in the hospital
+              Package and deploy software, manage deployment groups and task sequences in SCCM
+              Monitor environment with Solarwinds and address alerts as they come in
+              Wrote PowerShell Scripts for user login tasks, create and manage users/groups in AD
+              </p>
+            </div>
+
+            <div class="card card-block">
+              <h5>Ewing Irrigation</h5>
+              <h6>Systems Administrator</h6>
+              <p>
+              Administrating physical and virtual servers using Windows Server 2008-2016, VMWare 6.5, Hyper-V, Active Directory, Group Policies, Okta Single Sign On, IBM Domino and Notes email, Barracuda Spam and Web Application Filters, mobile devices using Mac OS Server with Apple's Mobile Device Management software, IBM SmartCloud Collaboration Suite
+              </p>
+            </div>
+
+            <div class="card card-block">
+              <h5>Harkins Theatres</h5>
+              <h6>Junior System Administrator</h6>
+              <p>
+              Provide infrastructure and desktop support for corporate office, field IT team and theatre locations. Managed Active Directory, Group Policies, Exchange 2007, Vmware 5.5, Managed backups using Symantec Backup Exec and Veeam Virtual Backup, Cisco Switches and Access Points, Sonicwall Firewalls. some PowerShell scripting for automating tasks, IT Asset Procurement and configuration
+              </p>
+            </div>
+
+            <div class="card card-block">
+              <h5>Arizona Industries for the Blind</h5>
+              <h6>IT Specialist</h6>
+              <p>
+              Helpdesk support for over 100 users and 200 workstations, creating users in Active Directory, apply group and access changes for users, managing centralized McAfee server to deploy antivirus, installing and configuring JAWS and ZoomText
+              </p>
+            </div>
+
+          </div>
+        </p>
       </div>
     </div>
   </div>
-</main>
+</div>
