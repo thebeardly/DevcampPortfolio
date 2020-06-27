@@ -19,8 +19,6 @@
 
   <body>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
-      <%= render 'shared/application_nav' %> 
-      <%= render '/shared/alerts' %>
       <%= video_tag(
               'blurred-code.ogv',
               type: 'video/ogv',
@@ -33,7 +31,8 @@
             )
       %>
 
-
+      <%= render 'shared/application_nav' %> 
+      <%= render '/shared/alerts' %>
 
       <%= yield %>
       
