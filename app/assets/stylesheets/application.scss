@@ -40,8 +40,8 @@ body {
 }
 
 body {
-  display: -ms-flexbox;
-  display: flex;
+  // display: -ms-flexbox;
+  // display: flex;
   color: #fff;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   font-family: "Lato", sans-serif;
@@ -75,6 +75,10 @@ h6,
 
 .masthead-brand {
   margin-bottom: 0;
+}
+
+nav {
+  width: 100%;
 }
 
 .nav-masthead .nav-link {
@@ -220,8 +224,8 @@ h6,
 }
 
 .about-me {
-  margin: 2em auto;
-  width: 100%;
+  width: 50%;
+  margin: 0px 80px 10px 80px;
 }
 
 .skill-list {
