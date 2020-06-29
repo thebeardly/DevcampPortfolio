@@ -5,6 +5,7 @@ class PortfoliosController < ApplicationController
 
   def index
     @portfolio_items = Portfolio.order(position: :asc)
+    @page_title = "Tristan Stutzman | Development Portfolio"
   end
 
   def new

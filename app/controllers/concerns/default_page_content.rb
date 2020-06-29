@@ -6,7 +6,7 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = "Rails Demo | Tristan Stutzman"
+    @page_title = "Tristan Stutzman | Rails Portfolio"
     @seo_keywords = "Tristan Stutzman Rails Portfoio"
   end
 end
