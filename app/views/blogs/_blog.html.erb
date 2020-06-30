@@ -8,3 +8,6 @@
     <%= blog.body %>
   </p>
 </div>
+<div class="blog-comment">
+  <%= pluralize(blog.comments.count, "comment") %>
+</div>
